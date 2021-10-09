@@ -116,6 +116,15 @@
   grid-row-end: 29;
 }
 
+.gallery-nav {
+  color: #ab4a43;
+}
+
+.gallery-nav:hover {
+  color: lightgray;
+  cursor: pointer;
+}
+
 .gallery-nav-down {
   height: 40px;
   width: 40px;
@@ -128,11 +137,6 @@
   width: 40px;
   padding-left: 10px;
   padding-bottom: 10px;
-}
-
-.gallery-nav:hover {
-  color: lightgray;
-  cursor: pointer;
 }
 
 .gallery-nav-up {

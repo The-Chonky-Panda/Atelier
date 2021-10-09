@@ -20,6 +20,7 @@ const ProductBreakdownBar = ({
         <div className={CSS['product-breakdown-indicator-1']}>{options[4]}</div>
         <FontAwesomeIcon icon='caret-down' size='2x' className={themeCaretClass} style={{
           marginLeft: `${marginLeft}%`,
+          color: '#05a8aa',
         }}/>
       </div>
     </>

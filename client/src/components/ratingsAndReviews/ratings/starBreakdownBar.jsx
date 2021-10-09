@@ -5,7 +5,7 @@ import CSS from '../ratingsAndReviews.module.css';
 
 const StarBreakdownBar = ({ barStyle = { width: '50%' }, theme }) => {
   const themeClass = theme === 'LIGHT' ? CSS['star-breakdown-bar-container'] : CSS['star-breakdown-bar-container-dark'];
-  const themeBarColor = theme === 'LIGHT' ? '#b1d2b0ff' : '#5D6D58';
+  const themeBarColor = theme === 'LIGHT' ? '#05a8aa' : '#5D6D58';
   return (
     <div className={themeClass}>
       <div className={CSS['star-breakdown-bar']} style={{

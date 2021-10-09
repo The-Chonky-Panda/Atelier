@@ -8,7 +8,7 @@ import { rateReviewHelpful, reportReview } from '../../../helpers/rateReviewHelp
 
 const PhotoModal = ({ imgUrl, closePhoto, theme }) => {
   const themeClass = theme === 'LIGHT' ? CSS['review-photo-modal'] : CSS['review-photo-modal-dark'];
-  const themeIconColor = theme === 'LIGHT' ? '#b1d2b0ff' : '#5D6D58';
+  const themeIconColor = theme === 'LIGHT' ? '#05a8aa' : '#5D6D58';
   return (
     <div className={themeClass} data-testid='review-photo-modal' >
       <img src={imgUrl} alt='review-photo' className={CSS['review-photo-expanded']}/>
@@ -93,7 +93,7 @@ class Review extends React.Component {
 
         {review.recommend
           && <div className={CSS['review-recommendation']}>
-              <FontAwesomeIcon icon='check' style={{ color: '#b1d2b0ff', marginRight: '10px' }}/>
+              <FontAwesomeIcon icon='check' style={{ color: '#05a8aa', marginRight: '10px' }}/>
               I recommend this product!
           </div>}
 

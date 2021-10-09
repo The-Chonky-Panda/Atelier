@@ -18,6 +18,7 @@ const ProductSummary = ({ product }) => {
           && features.map((item) => (
             <div className='feature' key={item.feature}>
               <FontAwesomeIcon
+                style={{ color: '#05a8aa' }}
                 className='product-feature-icon'
                 data-testid='product-feature-icon'
                 icon='check'
